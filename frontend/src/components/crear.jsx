@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Swal from'sweetalert2';
 
 
-const URI = 'http://localhost:8000/empleados/';
+const URI = 'https://crudfullstack-empleados.onrender.com/empleados/';
 
 
 const CompCrearEmpleado = () =>{
