@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended:true}));
 app.use('/empleados', empleadoRoutes);
 
 app.get('/', (req,res) =>{
-        res.send('Hola Mundo, estoy conectado al servidor')
+        res.send('Conexión con el Backend OK!!!')
 })
 
 app.listen(port, () => {
