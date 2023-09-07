@@ -1,0 +1,71 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+#registrar{
+  margin-right: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+#mostrar{
+  margin-right: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+#editar{
+  margin-right: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+#eliminar{
+  margin-right: 10px;
+  height: 40px;
+  width: 100px;
+}
+
+#basic-addon1{
+  width: 80px;
+}
+
+
+.input-busqueda{
+  width: 400px;
+  
+  border: 1px solid #198754;
+  padding: 6px 12px 6px 12px;
+}
+
+.input-busqueda:focus-visible{
+  outline: 3px solid #98ff96;
+ 
+}
+
+#busqueda{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.label-busqueda{
+  border: 1px solid #198754;
+  padding: 6px 12px 6px 12px;
+  border-radius: 5px;
+  background-color: #F8F8F8;
+}
+
+.card-header{
+  
+  text-decoration:bold;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black
+}
+
+.container{
+  margin-top: 30px;
+}
