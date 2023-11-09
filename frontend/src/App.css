@@ -69,3 +69,74 @@
 .container{
   margin-top: 30px;
 }
+
+
+@media screen and (max-width: 900px) {
+ 
+ 
+  .card-header{
+    font-size: 20px;
+  }
+
+  #nuevo{
+    font-size: 10px;
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+  }
+
+    
+  #busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    flex-wrap: nowrap;
+  }
+  
+  #busqueda .btn-success{
+    font-size: 14px;
+  }
+
+  .fa-plus{
+    font-size: 10px;
+  }
+
+  tbody{
+    font-size: 14px;
+  }
+
+  td .btn-info{
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    
+  }
+
+  td .fa-pen-to-square{
+    visibility: hidden;
+  }
+
+  td .fa-trash{
+    visibility: hidden;
+  }
+
+  td .btn-danger{
+    font-size: 10px;
+    width: 60px;
+    height: 30px;
+    margin-left: 8px;
+    font-weight: bold;
+  }
+  
+  th{
+    font-size: 14px;
+  }
+
+ 
+  
+
+  
+}

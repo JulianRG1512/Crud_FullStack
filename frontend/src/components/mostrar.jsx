@@ -99,7 +99,7 @@ const CompMostrarEmpleado = () =>{
                   </div>
                 </div>
                 
-                <Link to='/crear' className='btn btn-primary mt-2 mb-2'>Nuevo <i className="fa-solid fa-plus fa-flip"></i></Link>
+                <Link to='/crear' id="nuevo" className='btn btn-primary mt-2 mb-2'>Nuevo <i className="fa-solid fa-plus fa-flip"></i></Link>
                 
                 
                 
